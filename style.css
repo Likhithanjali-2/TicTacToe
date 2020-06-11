@@ -1,0 +1,77 @@
+body {
+    background-color: #ffe6ee;
+}
+table {
+  border-style: solid;
+  //margin-top: 120px;
+}
+h1 {
+  color :#e6007a;
+}
+
+.winner {
+  margin-top: 0px;
+  font-size: 40px;
+  color :#e6007a;
+}
+
+button {
+  background-color: #ff0088;
+  color: white;
+  padding: 28px 28px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+  width: 100px;
+  height:100px;
+}
+
+
+button:hover {
+  font-weight: 600;
+  background-color: #e6007a;
+}
+button:hover i { margin-right: 20px; }
+
+fieldset {
+  position:relative;
+  display: block;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-top: 4.35em;
+  padding-bottom: 1.625em;
+  padding-left: 1.75em;
+  padding-right: 3.75em;
+  border: 0px ;
+}
+
+.hidden{
+  display:none;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.player-name {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ff0088;
+    margin-top: 5px;
+    left : 35%;
+}
+
+.symbol {
+    font-size: 20px;
+    width :100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ff0088;
+    margin-top: 5px;
+    left : 35%;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <title>Tic Toc Toe Game :)</title>
+    </head>
+
+    <body>
+      <div>
+      <div class="initial" id="initial-page">
+        <center>
+        <fieldset><h1><b>WELCOME TO TIC TAC TOE GAME</b></h1><br><br>
+          <p>@ Enter the details before play </p><br>
+          <input type="text" placeholder="Player1 Name" name="player-1"/>
+          <input type="text" placeholder="Player2 Name" name="player-2"/>
+          <button class="btn-start">Start Game</button>
+        </fieldset></center>
+      </div>
+
+      <div class="hidden" id="original-game">
+        <div class="wrapper clearfix"><br><br>
+          <center>
+            <h1>Tic Tac Toe Game</h1><p class="winner"></p>
+            <div class="player-name" id="player-1"><b>Player Name : player1 </b></div>
+            <div class="player-name" id="player-2"><b>Player Name : player2 </b></div>
+            <table>
+              <tr><td><button id="pos-1" ></button></td>
+                  <td><button id="pos-2"></button></td>
+                  <td><button id="pos-3" > </button></td>
+              </tr>
+              <tr><td><button id="pos-4"></button></td>
+                  <td><button id="pos-5"></button></td>
+                  <td><button id="pos-6"></button></td>
+              </tr>
+              <tr><td><button id="pos-7"></button></td>
+                  <td><button id="pos-8"></button></td>
+                  <td><button id="pos-9"></button></td>
+              </tr>
+            </table>
+          </center>
+          <button class="btn-new">New Game</button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+    </body>
+</html>
+
+
+
+<!--
+@ 9 boxes
+@ can able click
+@ for first click use one symbol .. and for second another symbol .. i.e  toggle symbol
+@ check block positions and symbols 1,2,3 -> if these three positions have the same symbol
+  then the player using that particular symbol wins the game .
